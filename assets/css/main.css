@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
@@ -4159,7 +4159,7 @@
 				}
 
 			.banner > article h2 {
-				font-size: 7rem;
+				font-size: 5.5rem;
 				margin-bottom: 0;
 				color: #FFF;
 				font-weight: 300;
