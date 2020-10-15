@@ -142,7 +142,31 @@
                                 </li>
                             </ul>
                             <br />
-                            <p>For this game I had the opportunity to apply all those concepts about language grammar, lexers and parsers that I studied at college, to create a custom scripting language as a tool for designers & non-programmers to write the game script.</p>
+                            <p>
+                                This was my frst experience as the only programmer in the team of three : One Programmer, One Artist & One Animator. I had the opportunity to apply all those concepts about language grammar, lexers and parsers that I studied at college, to create a custom scripting language as a tool for designers & non-programmers to write the game script.
+                                This was also my first experience as a tool programmer. <i class="fas fa-laugh-squint"></i>
+                                <ul>
+                                    <li-noprint>The work that went into creating this tool is inspired from :</li-noprint>
+                                    <li>Visual Novel Engine&ensp;: <a href="https://www.renpy.org/" target="_blank">Ren'Py</a></li>
+                                    <li>Storytelling App &ensp;&ensp;&ensp;&ensp;: <a href="https://pocketgems.com/episode/" target="_blank">Episode Interactive</a></li>
+                                </ul>
+                                <span class="image left"><img src="images/virtuallife.png" alt=""></span>
+                                This was a story based game where you control the fate of your favorite characters by choosing between the options that pop on your screen.
+                                Each option leads to a different path and each path to a new outcome. <br />
+                                <br /><br />
+                                <b>When it was time to use an editor for the game script :</b><br />
+                                For this we needed a way that would enable the storytellers to design the flow of their story.<br />
+                                Initially, I went with a tool : <a href="https://github.com/YarnSpinnerTool/YarnEditor">YarnEditor</a>, which is something that has been previously used by other games that involved choices.
+                                This tool lets you create and edit multiple nodes and allows them to be linked together to form a graph.
+                                It even lets you output the whole visual graph data into a text format which you can then parse and use it in your code.
+                                Which is what I did. Everything went well for a while. It worked fine for simpler and shorter data, however when the story started becoming larger and complex, the tool became rather dificult to manage. It was a spaghetti of links.
+                                Also, as this tool is still being developed it was not perfect and we would occasionally run into issues with saving and loading of the data.
+                                Another thing that bothered me a lot was how restrictive it felt when editing the nodes. It had its own editor which was very plain and had no text color schemes and other formatting options.
+                                The only reason we used this tool was for its ability to visually represent the branches. Seeing how terribly that panned out for larger data, we decided to drop it.
+                                <br /><br />
+                                We eventually ended up using : <a href="https://www.sublimetext.com/">Sublime</a> where I wrote a custom syntax definition to support the type of syntax highlighting I wanted for the game script.
+                                It gave me the freedom to define which part of the script gets which color. If the script file type is not the one I defined, then sublime won't recognize it and won't apply the syntax definition, which also acts as a visual feedback to let you know that the script file type is incorrect.
+                            </p>
                         </div>
                     </div>
                 </div>
